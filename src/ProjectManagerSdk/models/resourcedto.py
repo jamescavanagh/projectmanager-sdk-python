@@ -127,4 +127,8 @@ class ResourceDto:
     value to False will make this user unable to access this Workspace.
     """
 
+    createdDate: str | None = None
+    """
+    Adding this attribute to update the api
+    """
 
